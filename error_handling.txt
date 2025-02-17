@@ -1,1 +1,2 @@
-adding a new file
+TypeError: occur when an operation or function is applied to an object of inappropriate type.
+NameError: occur when a local or global name is not found.
