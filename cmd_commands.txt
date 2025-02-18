@@ -1,0 +1,10 @@
+del [filename] - Deletes the specified file.
+rmdir [directory] - Removes the specified directory.
+copy con [filename] - Creates a new file with the specified name and allows you to input text.
+echo [message] - Displays the specified message in the command prompt.
+ren [oldfilename] [newfilename] - Renames a file from oldfilename to newfilename.
+mkdir [directory] - Creates a new directory with the specified name.
+move [source] [destination] - Moves a file or directory from the source location to the destination.
+type [filename] - Displays the contents of the specified file.
+cls - Clears the command prompt screen.
+dir - Lists the files and directories in the current directory.
