@@ -1,0 +1,43 @@
+-- Create a new database
+CREATE DATABASE my_database;
+
+-- Select a database to use
+USE my_database;
+
+-- Create a new table
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    position VARCHAR(100),ss
+    salary DECIMAL(10, 2)
+);
+
+-- Insert data into a table
+INSERT INTO employees (id, name, position, salary) VALUES (1, 'John Doe', 'Manager', 75000.00);
+
+-- Select all data from a table
+SELECT * FROM employees;
+
+-- Select specific columns from a table
+SELECT name, position FROM employees;
+
+-- Select data with a condition
+SELECT * FROM employees WHERE salary > 50000;
+
+-- Update data in a table
+UPDATE employees SET salary = 80000 WHERE id = 1;
+
+-- Delete data from a table
+DELETE FROM employees WHERE id = 1;
+
+-- Order data by a specific column
+SELECT * FROM employees ORDER BY salary DESC;
+
+-- Remove all data from a table
+TRUNCATE TABLE employees;
+
+-- Drop a table
+DROP TABLE employees;
+
+-- Drop a database
+DROP DATABASE my_database;
