@@ -1,14 +1,14 @@
 import pymysql as ps
-
-# Global variable
-table = input("Enter table name: ")
+db = "jaishnav_db"
+print("------------ Database being used is -", db, "------------")
+table = input("\nEnter table name: ")
 
 def connect_db():
     return ps.Connect(  host='localhost',
                         port=3306,
                         user='root',
                         password='D@tteb@yo#106',
-                        database='jaishnav_db',
+                        database=db,
                         charset='utf8')
 
 def disconnect_db(connection):
@@ -83,7 +83,6 @@ def update_row():
         col = input("Enter column name: ")
         val = input("Enter new value: ")
 
-        # Enclose string values in quotes
         if col.lower() in ["name", "gender", "location", "dob"]:
             val = f"'{val}'"
 
@@ -115,10 +114,8 @@ def display_table():
     except Exception as e:
         print("\nError Fetching Data:", e)
 
-# Create table before menu starts
 create_table()
 
-# Menu-driven program
 while True:
     print("\n----- MENU -----")
     print("1. Insert Row")
