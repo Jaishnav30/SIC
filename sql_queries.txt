@@ -41,3 +41,9 @@ DROP TABLE employees;
 
 -- Drop a database
 DROP DATABASE my_database;
+
+--To view metadata of a table
+DESCRIBE employees;
+DESC employees;
+
+
