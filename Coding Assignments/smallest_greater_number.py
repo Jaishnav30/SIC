@@ -52,7 +52,7 @@ else:
 
 
 
-# ChatGPT code that has just optimised my original code------------------------------------------------------------------------------------------------------------------
+# ChatGPT code that has just optimised MY original code------------------------------------------------------------------------------------------------------------------
 
 # input_no = input("Enter the number: ")
 # num = list(input_no)

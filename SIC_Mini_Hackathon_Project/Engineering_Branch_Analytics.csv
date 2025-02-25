@@ -1,0 +1,6 @@
+Branch Name,Students Enrolled,Current Demand,Gender Diversity,Growth Potential,Average Salary (INR),Internships,Placements,Dropout Rates (%),Research Opportunities,Industry Collaboration,Job Market Stability,Higher Education Prospects,Startups in the Field,Emerging Technologies,Practical Exposure
+Computer Science,500,Very High,"70% Male, 30% Female",High,12,85,90,5,High,Strong,Stable,High,50,"AI, ML, Cloud, Data Science, Cybersec",High
+Chemical Engineering,200,Low,"60% Male, 40% Female",Moderate,7,65,70,8,Moderate,Moderate,Moderate,Moderate,10,Sustainable Energy,Medium
+Civil Engineering,150,Very Low,"80% Male, 20% Female",Strong,5,50,55,10,Low,Moderate,Low,Low,10,"Smart Cities, BIM",Low
+Mechanical Engineering,180,Low,"85% Male, 15% Female",Low,6,55,60,9,Low,Moderate,Low,Low,10,"Automation, Robotics",Medium
+Electrical Engineering,220,Moderate,"75% Male, 25% Female",Moderate,7,65,70,7,Moderate,Moderate,Moderate,Moderate,20,Renewable Energy,Medium

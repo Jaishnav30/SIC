@@ -1,2 +1,13 @@
 TypeError: occur when an operation or function is applied to an object of inappropriate type.
+IndentationError: occur when there is an incorrect indentation.
 NameError: occur when a local or global name is not found.
+ZeroDivisionError: occur when division or modulo by zero takes place for all numeric types.
+FileNotFoundError: occur when an attempt to open a file that does not exist is made.
+PermissionError: occur when trying to run an operation without the adequate access rights.
+OSError: occur when a system-related operation causes an error.
+SyntaxError: occur when the parser encounters a syntax error.
+AttributeError: occurs when an attribute reference or assignment fails.
+TypeError: occurs when an operation or function is applied to an object of inappropriate type.
+KeyError: occurs when a dictionary key is not found in the set of existing keys.
+ValueError: occurs when a function receives an argument of the right type but inappropriate value.
+IndexError: occurs when a sequence subscript is out of range.

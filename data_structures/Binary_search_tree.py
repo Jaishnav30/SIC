@@ -87,7 +87,6 @@ class Bst:
                 tmp3.right = tmp2.right
             return
 
-
     def inorder(self, root):
         if root:
             self.inorder(root.left)
